@@ -1,0 +1,15 @@
+{
+    "name": "xiyanghui/aliapi",
+    "description": "api library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "young",
+            "email": "young@xiyanghui.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+	"classmap": ["./client", "./sdk"]
+	}
+}
