@@ -83,7 +83,7 @@ class AlibabaTradeGeneralPreorderResult {
 	
 	private $arrayResult;
 	public function setArrayResult($arrayResult) {
-		$this->arrayResult = $arrayResult;
+		$this->arrayResult = (array)$arrayResult;
 				    		    		if (array_key_exists ( "result", $this->arrayResult )) {
     		$resultResult=$arrayResult['result'];
     			    			$this->result = new AlibabatradeOrderMutilViewResult();
