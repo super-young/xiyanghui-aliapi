@@ -4,11 +4,13 @@
 class AlibabaTradeGeneralCreateOrderResult
 {
 
-
+    /**
+     * @var AlibabaopenplatformtraderesultTradeCreateGeneralOrderResult
+     */
     private $result;
 
     /**
-     * @return
+     * @return AlibabaopenplatformtraderesultTradeCreateGeneralOrderResult
      */
     public function getResult()
     {

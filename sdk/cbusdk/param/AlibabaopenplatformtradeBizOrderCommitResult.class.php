@@ -274,17 +274,17 @@ class AlibabaopenplatformtradeBizOrderCommitResult extends SDKDomain {
     		    	    			    		    		if (array_key_exists ( "orderModel", $this->arrayResult )) {
     		$orderModelResult=$arrayResult['orderModel'];
     			    			$this->orderModel = new AlibabaopenplatformtradeBizSimpleOrderModel();
-    			    			$this->orderModel->$this->setStdResult ( $orderModelResult);
+    			    			$this->orderModel->setStdResult ( $orderModelResult);
     		}
     		    	    			    		    		if (array_key_exists ( "resultCode", $this->arrayResult )) {
     		$resultCodeResult=$arrayResult['resultCode'];
     			    			$this->resultCode = new AlibabaopenplatformtradeResultCodeDef();
-    			    			$this->resultCode->$this->setStdResult ( $resultCodeResult);
+    			    			$this->resultCode->setStdResult ( $resultCodeResult);
     		}
     		    	    			    		    		if (array_key_exists ( "extModels", $this->arrayResult )) {
     		$extModelsResult=$arrayResult['extModels'];
     			$this->extModels = AlibabatradecomKeyValuePair();
-    			$this->extModels->$this->setStdResult ( $extModelsResult);
+    			$this->extModels->setStdResult ( $extModelsResult);
     		}
     		    	    		}
  
